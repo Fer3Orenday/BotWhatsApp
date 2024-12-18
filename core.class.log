@@ -1,0 +1,65 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214492231673@s.whatsapp.net',
+    fromMe: false,
+    id: '25FC6127BB9B08C878472B8E34A5A6E4',
+    participant: undefined
+  },
+  messageTimestamp: 1734550123,
+  pushName: 'Andy Velher',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'hola',
+  from: '5214492231673'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_92dbef5f-8765-4148-a1d1-48935463ab26',
+  keyword: 'key_d05c4a4c-aa8b-4f1e-b729-9c1ee3282201',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8ce7eb0fb5d0ffaeeb20a42ff95d0a35'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f562dc36-0786-4891-8ca2-5b14ca337222',
+  keyword: 'ans_92dbef5f-8765-4148-a1d1-48935463ab26',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd5fc1c288c7dde2210e5beffb3a0298f'
+}
